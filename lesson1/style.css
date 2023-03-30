@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    color: red;
+    font-weight: 800;
+    /* font-size:  */
+    text-shadow: 0 2px white, 0 3px #777;
+    text-transform: capitalize;
+}
+
+.heading3 {
+    color: rgba(130, 90, 220, 0.8);
+    font-size: 25px;
+    line-height: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+table {
+    padding: 2px;
+}
+
+td {
+    width: 900px;
+    height: 100px;
+    vertical-align: bottom;
+    text-align: center;
+}
+
+li {
+    list-style-position: inside;
+}
+
+img {
+    width: 300px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+#forflex {
+    color: blue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gradientst {
+    padding: 10px;
+    margin-bottom: 10px;
+    color: white;
+    background: rgb(131,58,180);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.cent {
+    background-image: url(images/image.png); 
+    padding: 100px; 
+    margin-bottom: 10px; 
+    color: white;
+}
+
+input[type=text] {
+    border: 2px solid blue;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: white;
+    /* background-image: url('searchicon.png'); */
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 20px;
+}
