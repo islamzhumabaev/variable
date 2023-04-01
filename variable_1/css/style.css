@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  display: inline-flex;
+  margin: 35px;
+  border: solid 1px black;
+}
+
+.header_image {
+  margin: 30px 30px 0px 0px;
+}
+
+.header_text {
+  margin: 140px 30px 50px 0px;
+}
+
+.header_text1 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.header_text2 {
+  font-size: 25px;
+}
+
+.header_text3 {
+  font-size: 20px;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+}
+
+.op1 {
+  color: blue;
+}
+
+.op3 {
+  color: red;
+}
+
+.op4 {
+  color: rgb(235, 235, 69);
+}
+
+.op5 {
+  color: blue;
+}
+
+.op6 {
+  color: green;
+}
+
+.op7 {
+  color: red;
+}
